@@ -1,0 +1,40 @@
+---
+// Este archivo se encargará del diseño del formulario de inicio de sesión
+---
+<div class="flex min-h-screen flex-col items-center justify-center bg-slate-50 font-['Lexend','Noto Sans',sans-serif]">
+    <div class="w-full max-w-md px-6">
+      <div class="flex items-center justify-center bg-slate-50 p-4 pb-2">
+        <h2 class="text-lg font-bold text-center text-[#0d141c]">Iniciar Sesión</h2>
+      </div>
+      <h3 class="pt-5 pb-2 text-center text-2xl font-bold text-[#0d141c]">Welcome back</h3>
+      <form class="flex flex-col gap-4">
+        <label for="email" class="flex flex-col">
+          <input
+            id="email"
+            type="email"
+            placeholder="Email address"
+            required
+            class="form-input w-full rounded-xl bg-[#e7edf4] p-4 text-base text-[#0d141c] placeholder:text-[#49719c] focus:outline-none focus:ring-0"
+          />
+        </label>
+        <label for="password" class="flex flex-col">
+          <input
+            id="password"
+            type="password"
+            placeholder="Password"
+            required
+            class="form-input w-full rounded-xl bg-[#e7edf4] p-4 text-base text-[#0d141c] placeholder:text-[#49719c] focus:outline-none focus:ring-0"
+          />
+        </label>
+        <a href="#" class="text-sm text-[#49719c] underline">Forgot password?</a>
+        <button
+          type="submit"
+          class="w-full rounded-xl bg-[#0d7cf2] py-3 text-base font-bold text-white"
+        >
+          Log In
+        </button>
+        <a href="singup" class="text-sm text-[#49719c] underline">New user? Sign up now</a>
+      </form>
+    </div>
+  </div>
+  
